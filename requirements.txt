@@ -1,0 +1,7 @@
+Faker==23.3.0
+langchain==0.1.12
+langchain_community==0.0.28
+langchain_core==0.1.32
+langchain_openai==0.0.8
+pandas==2.2.1
+streamlit==1.31.1
