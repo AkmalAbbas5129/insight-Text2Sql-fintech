@@ -6,9 +6,9 @@ from custom_vanna_utils import *
 
 llm = AzureChatOpenAI(
     model_name="gpt-35-turbo-16k",
-    deployment_name=st.secrets.openai["deployment_name"],
-    openai_api_key=st.secrets.openai["openai_api_key"],
-    azure_endpoint=st.secrets.openai["azure_endpoint"],
+    deployment_name=st.secrets["deployment_name"],
+    openai_api_key=st.secrets["openai_api_key"],
+    azure_endpoint=st.secrets["azure_endpoint"],
     openai_api_type="azure",
     openai_api_version="2023-03-15-preview",
     temperature="0"
