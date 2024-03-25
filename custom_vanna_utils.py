@@ -164,8 +164,6 @@ def generate_sql_wrt_question(db_uri, table_names, llm, user_query):
     - Using the proper columns for joins
 
     Use format:
-
-    First draft: <<FIRST_DRAFT_QUERY>>
     
     {format_instructions}
 
