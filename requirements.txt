@@ -5,3 +5,4 @@ langchain_core==0.1.32
 langchain_openai==0.0.8
 pandas==2.2.1
 streamlit==1.31.1
+matplotlib
